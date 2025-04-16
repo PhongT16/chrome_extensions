@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Go to Webpage",
+  "version": "1.0",
+  "description": "Opens a Google Calendar when clicked",
+  "action": {
+    "default_title": "Go to Google Calendar",
+    "default_icon": {
+      "16": "calendar_icon.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
+
